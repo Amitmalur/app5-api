@@ -1,11 +1,11 @@
 import requests
 from send_email import email_send
 
-api_key = "befd96e6cf1b4a808a4a62ac4a1d0627"
+api_key = ""
 
 topic = "tesla"
 
-url = "https://newsapi.org/v2/everything?q={topic}&sortBy=publishedAt&apiKey=befd96e6cf1b4a808a4a62ac4a1d0627&language=en"
+url = "https://newsapi.org/v2/everything?q={topic}&sortBy=publishedAt&apiKey=xxxx&language=en"
 
 request = requests.get(url)
 content = request.json()
